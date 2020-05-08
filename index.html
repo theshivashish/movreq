@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container-fluid container-top">
+
+    <!-- Jumbotron -->
+    <div class="row row-jumbotron">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">Welcome to FreeMason's</h1>
+                <p class="lead">Looking for a particular webseries, movie or a sitcom?
+                    <br><br>
+                    just make a request and we'll send it's link to your email.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form row -->
+    <div class="row row-form">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-6">
+
+            <!-- form actual -->
+            <form class="mov-req-form">
+
+                <!-- Select button -->
+                <div class="btn-group select-btn">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Select</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Webseries</a>
+                        <a class="dropdown-item" href="#">Movie</a>
+                        <a class="dropdown-item" href="#">Sitcom</a>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control " id="formGroupExampleInput" placeholder="Title" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Youtube Link to trailer" required="true">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <button onclick="location.href='thank_you.html';" type="submit"
+                    class="btn btn-primary form-btn">Submit</button>
+            </form>
+
+        </div>
+        <div class="col"></div>
+    </div>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
